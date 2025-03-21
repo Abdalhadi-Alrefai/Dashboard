@@ -1,0 +1,122 @@
+.auth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./assets/img/Shape.png");
+  background-size: cover;
+  background-color: #4880ff;
+}
+.auth .login,
+.auth .signup {
+  background-color: #ffffff;
+  width: 498px;
+  height: 620px;
+  text-align: center;
+  border-radius: 6px;
+}
+.auth h1 {
+  font-size: 32px;
+  font-weight: 700;
+  padding-top: 22px;
+}
+.auth p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #202224;
+  margin-bottom: 32px;
+}
+.auth form label {
+  display: block;
+  text-align: left;
+  margin-left: 32px;
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #202224;
+}
+.auth form input {
+  width: 434px;
+  height: 45px;
+  border-radius: 6px;
+  border: 1px solid #d8d8d8;
+  background: #f1f4f9;
+  margin-bottom: 17px;
+}
+.auth form input[type="text"],
+.auth form input[type="email"],
+.auth form input[type="password"] {
+  padding-left: 16px;
+}
+.auth .login form input[type="submit"] {
+  margin-top: 244px;
+}
+.auth form input[type="submit"] {
+  margin-bottom: 8px;
+}
+.auth form input[type="submit"] {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #4880ff;
+  border: none;
+  cursor: pointer;
+}
+.auth form span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #202224;
+  text-decoration: none;
+}
+.auth form a {
+  color: #5a8cff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* sign up page : */
+
+.auth .signup p {
+  font-size: 18px;
+}
+.auth .signup .name,
+.auth .signup .password {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+}
+.auth .signup .name input,
+.auth .signup .password input {
+  width: 207px;
+}
+.auth .signup .name label,
+.auth .signup .password label {
+  margin: 0;
+  margin-bottom: 4px;
+}
+.auth .signup .file-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.auth .signup .file-upload .file-image {
+  width: 100px;
+  height: 100px;
+  border: 2px dashed #4880ff4d;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+}
+.auth .signup .file-upload #file {
+  display: none;
+}
+.file-name {
+  font-size: 14px;
+  color: #202224;
+  margin-left: 36px;
+}
